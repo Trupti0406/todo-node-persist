@@ -21,12 +21,12 @@ app.post("/addTodo", async (req, res) => {
 });
 app.get("/getTodo", async (req, res) => {
   todos = await storage.values();
-  res.status(200).json({ todos: todos });
+  res.status(200).json({ data: todos });
 });
 
 app.delete("/getTodo", async (req, res) => {
   todos = await storage.clear();
-  res.status(200).json({ todos: todos });
+  res.status(200).json({ data: todos });
 });
 
 app.listen(PORT, () => {
