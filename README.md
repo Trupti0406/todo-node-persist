@@ -1,4 +1,4 @@
-# Todo List APP using node-persist as storage
+# Todo List App using node-persist as storage
 
 ## Working video of this application: [Click Here](https://drive.google.com/file/d/1_anZrQDDtlQH59yo7yV7PrC_5F4Iiet-/view?usp=share_link).
 
